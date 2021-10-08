@@ -1,0 +1,12 @@
+.mb-5{
+    margin: 7vw 15vw 0vw 15vw;
+}
+.btn{
+    background-color: #4288c8ff;
+}
+img{
+    width: 100%;
+    height: 21vw;
+    object-fit: fill;
+    overflow: hidden;
+}
