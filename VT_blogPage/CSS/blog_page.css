@@ -13,7 +13,7 @@ img {
   overflow: hidden;
 }
 
-.col-4{
+.col-3{
   margin-left: 20px;
   border:  2px solid black;
   background-color: #bac8d6;
@@ -21,7 +21,7 @@ img {
 
 .search{
   margin-top: 20px; 
-  width: 480px;
+  width: 23vw;
 }
  h3{
   margin-left: 10px; 
@@ -30,7 +30,6 @@ img {
  }
 
 .side-panel-text{
-  
   background-color: #4288c8; 
   height: 40px;
 }
