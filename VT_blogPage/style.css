@@ -171,6 +171,7 @@ nav a:hover {
 
 .post-text .main-text {
   line-height: 30px;
+  margin-top: 10px;
 }
 
 
@@ -182,6 +183,12 @@ nav a:hover {
 
 .image {
   height: 225px;
+  width: auto;
+  border-radius: 5px;
+}
+
+.full-post {
+  height: 550px;
   width: auto;
   border-radius: 5px;
 }
