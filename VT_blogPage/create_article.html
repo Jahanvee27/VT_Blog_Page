@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="article_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <title>Blog</title>
+  </head>
+  <body class="contain">
+    <nav>
+      <img src="Images/logo-small.png" />
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Internship</a></li>
+        <li><a href="#" id="current">Blog</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Join VTF Team</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" id="subscribe">Subscribe</a></li>
+      </ul>
+    </nav>
+    <div class="box">
+      <div class="grid">
+        <div class="side-panel">
+          <div class="categories">
+            <h3 class="side-heads">Add Tags</h3>
+            <div class="side-body">
+              <input class="side-search" type="text" placeholder="Search" />
+              <ul class="side-list">
+                <li class="side-elements">UI/UX Designing</li>
+                <li class="side-elements">Content Writing</li>
+                <li class="side-elements">Web Development</li>
+                <li class="side-elements">Virtualization</li>
+              </ul>
+            </div>
+          </div>
+          <div class="recent">
+            <h3 class="side-heads">My Posts</h3>
+            <div class="side-body">
+              <input class="side-search" type="text" placeholder="Search" />
+              <ul class="side-list recent-blogs">
+                <li class="side-elements">Benefits of Virtualization</li>
+                <li class="side-elements">
+                  Creating a Virtual Environment in VM Ware
+                </li>
+                <li class="side-elements">Frontend Designing using Angular</li>
+                <li class="side-elements">
+                  Power of making Project Wireframes
+                </li>
+                <li class="side-elements">
+                  Agile Methodology for Project Development
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="post one">
+          <h3 class="card-title">Create New Post</h3>
+          <input type="text" placeholder="Title" class="article-title" />
+          <textarea class="article-content"></textarea>
+          <div class="article-text">
+            <button>B</button>
+            <button>I</button>
+            <button>U</button>
+          </div>
+          <div class="article-tools">
+            <button>Save Draft</button>
+            <button>Preview</button>
+            <button>Post</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      © Copyright Virtually Testing Foundation. All Rights Reserved
+    </footer>
+  </body>
+</html>
