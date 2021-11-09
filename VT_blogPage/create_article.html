@@ -31,7 +31,7 @@
     <title>Blog</title>
   </head>
   <body class="contain">
-    <nav>
+    <!--<nav>
       <img src="Images/logo-small.png" />
       <ul>
         <li><a href="#">Home</a></li>
@@ -44,11 +44,11 @@
         <li><a href="#">Contact</a></li>
         <li><a href="#" id="subscribe">Subscribe</a></li>
       </ul>
-    </nav>
+    </nav>-->
     <div class="box">
       <div class="grid">
         <div class="side-panel">
-          <div class="categories">
+          <!--<div class="categories">
             <h3 class="side-heads">Add Tags</h3>
             <div class="side-body">
               <input class="side-search" type="text" placeholder="Search" />
@@ -59,40 +59,52 @@
                 <li class="side-elements">Virtualization</li>
               </ul>
             </div>
-          </div>
+          </div>-->
           <div class="recent">
-            <h3 class="side-heads">My Posts</h3>
+            <h3 class="side-heads">Dashboard</h3>
             <div class="side-body">
               <input class="side-search" type="text" placeholder="Search" />
               <ul class="side-list recent-blogs">
-                <li class="side-elements">Benefits of Virtualization</li>
-                <li class="side-elements">
-                  Creating a Virtual Environment in VM Ware
-                </li>
-                <li class="side-elements">Frontend Designing using Angular</li>
-                <li class="side-elements">
-                  Power of making Project Wireframes
-                </li>
-                <li class="side-elements">
-                  Agile Methodology for Project Development
-                </li>
+                <li class="side-elements">Current Post</li>
+                <li class="side-elements">All Posts</li>
+                <li class="side-elements">Add pages</li>
+                <li class="side-elements">Users</li>
+                <li class="side-elements">Log out</li>
               </ul>
             </div>
           </div>
         </div>
         <div class="post one">
           <h3 class="card-title">Create New Post</h3>
-          <input type="text" placeholder="Title" class="article-title" />
-          <textarea class="article-content"></textarea>
-          <div class="article-text">
+          <div class="input-group flex-nowrap">
+            <input type="text" class="form-control" placeholder="Title" aria-label="Username" aria-describedby="addon-wrapping">
+          </div>
+          <br>
+          <!--<input type="text" placeholder="Title" class="article-title" />-->
+          <div class="input-group flex-nowrap">
+            <textarea type="text" class="form-control article-content" aria-label="Username" aria-describedby="addon-wrapping" style="height: 300px;"></textarea>
+          </div>
+          <br><br>
+          <!--<textarea class="article-content"></textarea>-->
+          <!--<div class="article-text">
             <button>B</button>
             <button>I</button>
             <button>U</button>
-          </div>
-          <div class="article-tools">
+          </div>-->
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary btn-color">B</button>
+            <button type="button" class="btn btn-primary btn-color">I</button>
+            <button type="button" class="btn btn-primary btn-color">U</button>
+          </div><br><br>
+          <!--<div class="article-tools">
             <button>Save Draft</button>
             <button>Preview</button>
             <button>Post</button>
+          </div>-->
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-primary">Save Draft</button>
+            <button type="button" class="btn btn-primary">Preview</button>
+            <button type="button" class="btn btn-primary">Post</button>
           </div>
         </div>
       </div>
